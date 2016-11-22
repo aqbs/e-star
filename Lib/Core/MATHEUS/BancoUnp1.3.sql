@@ -1451,6 +1451,7 @@ DELIMITER ;
 USE `e-star`;
 DROP procedure IF EXISTS `e-star`.`sp_inserirUnidade`;
 
+
 DELIMITER $$
 
 CREATE PROCEDURE `sp_inserirUnidade`(nome varchar(45))
