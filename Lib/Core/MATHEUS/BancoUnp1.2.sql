@@ -567,6 +567,7 @@ DROP procedure IF EXISTS `e-star`.`sp_inserirAluno`;
 DELIMITER $$
 CREATE PROCEDURE `sp_inserirAluno`(nome varchar(100), matricula char(9), email varchar(50), login varchar(50), senha varchar(20), idCursoFK integer(11))
 BEGIN
+  INSERT INTO `e-star`.`Aluno`
 (`nome`,
 `matricula`,
 `email`,
