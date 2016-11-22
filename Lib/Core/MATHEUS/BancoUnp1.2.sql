@@ -2155,3 +2155,4 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- call sp_listarAluno();
 -- call sp_buscarAlunoID(1);
 -- call sp_deletarAluno(1);
+ 
